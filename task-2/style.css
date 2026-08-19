@@ -1,0 +1,48 @@
+
+.body{
+    font-family: Arial, sans-serif;
+}
+.service-card{
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+}
+.service-card p{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+}
+.service-card ul{
+    font-size: 0.95rem;
+    line-height: 1.5;
+}    
+.service-card h3{
+    font-size: 1.2rem;
+}
+.service-card label{
+    font-size: 1rem
+}
+.services-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.selected{
+    background-color: #f0f7f0;
+    border: 2px solid #006400;
+}
+#total-price{
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+}
+@media (max-width: 768px) {
+    .services-card {
+        grid-template-columns: 1fr;
+    }
+}
